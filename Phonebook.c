@@ -283,7 +283,7 @@ void storeEntries(phoneBook*list,int count){
 	findPath:
 		if (pStore == NULL){
 			printf("\n\tWe were unable to create or locate a file.\n");
-			printf("\n\tPlease inpute another path: ");
+			printf("\n\tPlease input another path: ");
 			scanf("%s",path);
 			if(pStore == NULL){
 				goto findPath;
